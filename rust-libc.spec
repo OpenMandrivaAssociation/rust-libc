@@ -5,7 +5,7 @@
 
 Name:           rust-%{crate}
 Version:        0.2.115
-Release:        1
+Release:        2
 Summary:        Raw FFI bindings to platform libraries like libc
 
 # Upstream license specification: MIT OR Apache-2.0
