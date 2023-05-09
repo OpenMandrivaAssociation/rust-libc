@@ -4,14 +4,15 @@
 %global crate libc
 
 Name:           rust-%{crate}
-Version:        0.2.115
-Release:        2
+Version:        0.2.144
+Release:        1
 Summary:        Raw FFI bindings to platform libraries like libc
 
 # Upstream license specification: MIT OR Apache-2.0
 License:        MIT or ASL 2.0
 URL:            https://crates.io/crates/libc
 Source:         %{crates_source}
+Patch0:		libc-0.2.144-filelist.patch
 
 ExclusiveArch:  %{rust_arches}
 %if %{__cargo_skip_build}

@@ -1,0 +1,11 @@
+diff -up libc-0.2.144/Cargo.toml.omv~ libc-0.2.144/Cargo.toml
+--- libc-0.2.144/Cargo.toml.omv~	2023-05-09 21:53:50.954372781 +0200
++++ libc-0.2.144/Cargo.toml	2023-05-09 21:54:03.153460296 +0200
+@@ -19,6 +19,7 @@ exclude = [
+     "/.github/*",
+     "/.cirrus.yml",
+     "/triagebot.toml",
++    "/Cargo.toml.orig",
+ ]
+ description = """
+ Raw FFI bindings to platform libraries like libc.
